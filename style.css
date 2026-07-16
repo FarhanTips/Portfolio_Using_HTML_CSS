@@ -66,6 +66,9 @@ nav ul li a {
     /* height: 64px;
     width: 150px; */
     cursor: pointer;
+    text-align: center;
+    height: 60px;
+    width: 190px;
 }
 
 .outline-btn {
@@ -91,7 +94,6 @@ nav ul li a {
 }
 
 
-
 .banner-left h2 {
     font-size: 60px;
     font-weight: 700;
@@ -105,7 +107,9 @@ nav ul li a {
     color: #181818;
 
 }
-
+/* .banner-right{
+    border: 2px solid red;
+} */
 .btn {
     display: flex;
     gap: 20px;
@@ -203,6 +207,8 @@ nav ul li a {
     align-items: left;
     text-align: left;
     gap: 25px 0px;
+    margin-bottom: 35px;
+    /* border: 3px solid red; */
 
 }
 
@@ -242,6 +248,7 @@ nav ul li a {
     border-bottom: 2px solid #d1d1d1FF;
     margin-right: 30px;
 }
+
 
 
 
