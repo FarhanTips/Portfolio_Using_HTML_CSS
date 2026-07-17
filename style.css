@@ -5,7 +5,9 @@
 }
 
 img {
+    /* It prevents an image from becoming wider than its parent container.Large images shrink when needed. Small images keep their original size. ✅ */
     max-width: 100%;
+    height: auto;
 }
 
 /* header{
@@ -87,7 +89,7 @@ nav ul li a {
 
 .Banner-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     /* border: 1px solid red; */
@@ -99,6 +101,12 @@ nav ul li a {
     font-weight: 700;
 
 }
+.banner-right {
+    flex: 1;
+}
+.banner-left{
+    flex: 1.5;
+}
 
 .banner-left-p1 {
     font-weight: 600;
@@ -107,6 +115,7 @@ nav ul li a {
     color: #181818;
 
 }
+
 /* .banner-right{
     border: 2px solid red;
 } */
@@ -202,7 +211,7 @@ nav ul li a {
 
 .Resume-parent {
     display: grid;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: left;
     text-align: left;
@@ -244,7 +253,7 @@ nav ul li a {
 
 }
 
-.bor-res{
+.bor-res {
     border-bottom: 2px solid #d1d1d1FF;
     margin-right: 30px;
 }
