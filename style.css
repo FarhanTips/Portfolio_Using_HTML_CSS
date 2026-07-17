@@ -329,6 +329,33 @@ footer form input, footer form textarea {
     font-size: 16px;
 }
 
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: #fd6e0a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-icons span:hover {
+    background-color: #fd6e0a;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.social-icons i {
+    font-size: 20px; 
+}
+
 /* 
 nav (Flex Container)
 │
