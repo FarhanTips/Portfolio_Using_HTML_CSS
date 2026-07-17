@@ -325,21 +325,12 @@ footer form input, footer form textarea {
     width: 100%;
     padding: 20px;
     border: none;
-    outline: none;
+    /* outline: none; */
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 16px;
 }
 
-.fr{
-    /* margin-left: 100px; */
-    flex: 1;
-}
-
-.fl{
-    margin-right: 200px;
-    flex: 1.5;
-}
 /* 
 nav (Flex Container)
 │
