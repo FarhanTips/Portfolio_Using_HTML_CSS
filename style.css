@@ -301,6 +301,45 @@ nav ul li a {
     grid-area: six;
 }
 
+footer{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    gap: 20px;
+    padding: 120px 0px 120px 0px;
+    color: #474747FF;
+    font-size: 16px;
+}
+
+footer h2{
+    font-size: 35px;
+    color: #181818FF;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+footer form{
+    margin-top: 25px;
+}
+footer form input, footer form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.fr{
+    /* margin-left: 100px; */
+    flex: 1;
+}
+
+.fl{
+    margin-right: 200px;
+    flex: 1.5;
+}
 /* 
 nav (Flex Container)
 │
