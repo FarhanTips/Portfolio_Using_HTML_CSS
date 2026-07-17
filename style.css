@@ -5,7 +5,7 @@
 }
 
 img {
-    /* It prevents an image from becoming wider than its parent container.Large images shrink when needed. Small images keep their original size. ✅ */
+    /* It prevents an image from becoming wider than its parent container. Large images shrink when needed. Small images keep their original size. ✅ */
     max-width: 100%;
     height: auto;
 }
@@ -258,8 +258,48 @@ nav ul li a {
     margin-right: 30px;
 }
 
+.my-amazing{
+    text-align: center;
+    margin-bottom: 120px;
+}
 
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 60px;
+    gap: 20px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
 
+.gallery img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; → Gallery, Portfolio, Card (box পুরো ভরবে, কিছু অংশ কাটতে পারে) object-fit: contain; → পুরো image দেখাতে চাইলে (কিছু কাটবে না, কিন্তু ফাঁকা জায়গা থাকতে পারে) */
+    object-fit: cover;
+}
+
+.box1{
+    grid-area: one;
+}
+.box2{
+    grid-area: two;
+}
+.box3{
+    grid-area: three;
+}
+.box4{
+    grid-area: four;
+}
+.box5{
+    grid-area: five;
+}
+.box6{
+    grid-area: six;
+}
 
 /* 
 nav (Flex Container)
