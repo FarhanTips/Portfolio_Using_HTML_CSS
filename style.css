@@ -318,9 +318,7 @@ footer h2{
     font-weight: 700;
     margin-bottom: 25px;
 }
-footer form{
-    margin-top: 25px;
-}
+
 footer form input, footer form textarea {
     width: 100%;
     padding: 20px;
